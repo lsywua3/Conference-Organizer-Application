@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>entities</OriginalElement>
+  <nodes>
+    <node x="904.1249999999999" y="0.0">account.entities.User</node>
+    <node x="1118.5" y="939.0">account.entities.Organizer</node>
+    <node x="0.0" y="1771.0">message.entities.Message</node>
+    <node x="1616.5" y="0.0">event.entities.Event</node>
+    <node x="645.4999999999999" y="837.0">account.entities.Speaker</node>
+    <node x="0.0" y="264.5">entities.Attendable</node>
+    <node x="110.49999999999989" y="837.0">account.entities.Attendee</node>
+    <node x="415.1874999999999" y="137.0">entities.Messageable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="account.entities.Organizer" target="account.entities.User">
+      <point x="113.25" y="-342.5" />
+      <point x="1458.25" y="817.0" />
+      <point x="1244.1249999999998" y="817.0" />
+      <point x="135.9999999999999" y="393.5" />
+    </edge>
+    <edge source="account.entities.Organizer" target="entities.Messageable">
+      <point x="-113.25" y="-342.5" />
+      <point x="1231.75" y="807.0" />
+      <point x="792.6874999999999" y="807.0" />
+      <point x="151.0" y="256.5" />
+    </edge>
+    <edge source="account.entities.Attendee" target="entities.Attendable">
+      <point x="-151.0" y="-444.5" />
+      <point x="0.0" y="129.0" />
+    </edge>
+    <edge source="account.entities.Speaker" target="entities.Messageable">
+      <point x="-113.25" y="-444.5" />
+      <point x="758.7499999999999" y="807.0" />
+      <point x="641.6874999999999" y="807.0" />
+      <point x="0.0" y="256.5" />
+    </edge>
+    <edge source="account.entities.Speaker" target="account.entities.User">
+      <point x="113.25" y="-444.5" />
+      <point x="985.2499999999999" y="817.0" />
+      <point x="1108.125" y="817.0" />
+      <point x="0.0" y="393.5" />
+    </edge>
+    <edge source="account.entities.Attendee" target="entities.Messageable">
+      <point x="0.0" y="-444.5" />
+      <point x="336.9999999999999" y="807.0" />
+      <point x="490.6874999999999" y="807.0" />
+      <point x="-151.0" y="256.5" />
+    </edge>
+    <edge source="account.entities.Attendee" target="account.entities.User">
+      <point x="151.0" y="-444.5" />
+      <point x="487.9999999999999" y="817.0" />
+      <point x="972.1249999999999" y="817.0" />
+      <point x="-136.0" y="393.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.21946082561078348" x="1075.5" y="1177.0" />
+  <SelectedNodes>
+    <node>entities.Messageable</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

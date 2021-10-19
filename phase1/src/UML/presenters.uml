@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>presenters</OriginalElement>
+  <nodes>
+    <node x="0.0" y="354.0">event.presenters.EventSystemPresenter</node>
+    <node x="0.0" y="657.0">presenters.MainMenuPresenter</node>
+    <node x="0.0" y="0.0">message.presenters.MessageSystemPresenter</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="434.0" y="254.5" />
+  <SelectedNodes>
+    <node>event.presenters.EventSystemPresenter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

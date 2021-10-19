@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>useCase</OriginalElement>
+  <nodes>
+    <node x="1097.0" y="2345.5">useCase.messageManager.OrganizerMessageManager</node>
+    <node x="1596.0" y="2607.0">useCase.eventManager.ScheduleGenerator</node>
+    <node x="0.0" y="1145.0">useCase.eventManager.EventAdmin</node>
+    <node x="710.5" y="257.0">useCase.accountManager.AccountManager</node>
+    <node x="806.0" y="2985.0">useCase.eventManager.AttendeeEventManager</node>
+    <node x="563.5" y="1636.0">useCase.messageManager.UserMessageManager</node>
+    <node x="544.0" y="2388.5">useCase.messageManager.AttendeeMessageManager</node>
+    <node x="0.0" y="2985.0">useCase.eventManager.SpeakerEventManager</node>
+    <node x="132.5" y="206.0">useCase.eventManager.EventBoard</node>
+    <node x="0.0" y="2320.0">useCase.messageManager.SpeakerMessageManager</node>
+    <node x="2254.0" y="2607.0">useCase.messageManager.MessageManager</node>
+    <node x="492.25" y="2607.0">useCase.eventManager.UserEventManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="useCase.messageManager.OrganizerMessageManager" target="useCase.messageManager.UserMessageManager">
+      <point x="0.0" y="-95.5" />
+      <point x="1389.0" y="2295.0" />
+      <point x="975.1666666666666" y="2295.0" />
+      <point x="164.66666666666663" y="317.0" />
+    </edge>
+    <edge source="useCase.eventManager.EventAdmin" target="useCase.eventManager.EventBoard">
+      <point x="0.0" y="-223.0" />
+      <point x="0.0" y="444.5" />
+    </edge>
+    <edge source="useCase.eventManager.AttendeeEventManager" target="useCase.eventManager.UserEventManager">
+      <point x="0.0" y="-223.0" />
+      <point x="1178.5" y="2960.0" />
+      <point x="932.5" y="2960.0" />
+      <point x="146.75" y="164.0" />
+    </edge>
+    <edge source="useCase.eventManager.SpeakerEventManager" target="useCase.eventManager.UserEventManager">
+      <point x="0.0" y="-223.0" />
+      <point x="393.0" y="2960.0" />
+      <point x="639.0" y="2960.0" />
+      <point x="-146.75" y="164.0" />
+    </edge>
+    <edge source="useCase.messageManager.AttendeeMessageManager" target="useCase.messageManager.UserMessageManager">
+      <point x="0.0" y="-52.5" />
+      <point x="0.0" y="317.0" />
+    </edge>
+    <edge source="useCase.messageManager.SpeakerMessageManager" target="useCase.messageManager.UserMessageManager">
+      <point x="0.0" y="-121.0" />
+      <point x="262.0" y="2295.0" />
+      <point x="645.8333333333334" y="2295.0" />
+      <point x="-164.66666666666663" y="317.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.16311834690043833" x="1413.0" y="1793.0" />
+  <SelectedNodes>
+    <node>useCase.eventManager.EventBoard</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
